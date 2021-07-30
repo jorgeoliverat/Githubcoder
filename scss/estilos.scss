@@ -1,0 +1,32 @@
+/*****reset****/
+@import "base/reset";
+
+/*****Body*****/
+@import "layout/body";
+  
+  /* Header */
+@import "layout/header";
+
+  /* Main */
+@import "layout/main";
+  
+  /* Footer */
+@import "layout/footer";
+  
+
+  @media only screen and (mim-width: 780px) and (max-width: 1024px) {
+    .backgroundRosado {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (mim-width: 480px) and (max-width: 780px) { 
+    .backgroundRosado {
+      width: 100px;
+      }
+    }
+  
+  @media only screen and (max-width: 300px) {
+  
+  }
+  
